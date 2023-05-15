@@ -1,6 +1,5 @@
 /*
-  {
-    slug: "",
+  slug: {
     title: "",
     date: "",
     byline: "",
@@ -11,9 +10,8 @@
   },
 */
 
-const PhotoData = [
-  {
-    slug: "jeneven",
+const PhotoData = {
+  jeneven: {
     title: "Jeneven.",
     date: "August 1, 2022",
     byline: "Vionna Villalon",
@@ -23,6 +21,6 @@ const PhotoData = [
     medium: "Digital Photography",
     dimension: "2,048 x 1,365",
   },
-];
+};
 
 export default PhotoData;
