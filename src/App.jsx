@@ -19,7 +19,6 @@ function App() {
         -1 *
         bodyBCR.top;
 
-      console.log(val);
       main.scrollLeft = val;
     });
   }, []);
