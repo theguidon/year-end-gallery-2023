@@ -1,0 +1,18 @@
+#watermark {
+  position: fixed;
+}
+
+#watermark.tr {
+  top: 40px;
+  right: 24px;
+}
+
+#watermark.br {
+  bottom: 40px;
+  right: 24px;
+}
+
+#watermark.bl {
+  bottom: 40px;
+  left: 24px;
+}

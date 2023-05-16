@@ -3,3 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  height: 200vh;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+main {
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-flow: row nowrap;
+
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+main::-webkit-scrollbar {
+  display: none;
+}
+
+main > * {
+  flex-shrink: 0;
+  flex-grow: 0;
+}
