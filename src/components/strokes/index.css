@@ -1,0 +1,67 @@
+#strokes {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+
+  position: relative;
+}
+
+#strokes .stroke {
+  height: 100%;
+}
+
+#strokes .stroke:not(.major) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#strokes .stroke {
+  animation: 3s path-idle infinite linear alternate;
+}
+
+#strokes .minor.a {
+  animation-delay: 3s;
+}
+
+#strokes .minor.b {
+  animation-delay: 1s;
+  animation-duration: 3s;
+}
+
+#strokes .minor.c {
+  animation-duration: 5s;
+}
+
+/**/
+#strokes .major path {
+  /* animation: 5s stroke-idle infinite ease-out alternate; */
+}
+
+#strokes .minor.a path {
+  animation-delay: 5s;
+}
+
+#strokes .minor.b path {
+  animation-delay: 2s;
+  animation-duration: 3s;
+}
+
+#strokes .minor.c path {
+  animation-delay: 4s;
+}
+
+@keyframes path-idle {
+  from {
+    transform: scale(1, 1);
+  }
+
+  to {
+    transform: scale(1, 1.1);
+  }
+}
+
+@keyframes stroke-idle {
+  to {
+    stroke-width: 5;
+  }
+}

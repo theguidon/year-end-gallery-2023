@@ -2,6 +2,7 @@ import { Route, Routes, Outlet } from "react-router";
 import PhotoFocus from "./components/photo-focus";
 import Landing from "./components/landing";
 import Timeline from "./components/timeline";
+import Strokes from "./components/strokes";
 import Ending from "./components/ending";
 import { useEffect, useRef } from "react";
 
@@ -40,6 +41,7 @@ function Layout() {
     <>
       <main id="main">
         <Landing />
+        <Strokes />
         <Timeline />
         <Ending />
       </main>

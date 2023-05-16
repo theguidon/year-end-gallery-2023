@@ -3,7 +3,13 @@ import "./index.css";
 function Timeline() {
   return (
     <section id="timeline">
-      <h1>Timeline</h1>
+      <p className="message">
+        For a better viewing experience, please view the gallery in full screen.
+      </p>
+
+      <h1 className="year 2022">2022</h1>
+
+      <h1 className="year 2023">2023</h1>
     </section>
   );
 }
