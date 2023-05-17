@@ -104,7 +104,8 @@ const PhotoData = {
     byline: "Vionna Villalon",
     caption:
       "One of the Loyola Schools Office of Guidance and Counseling’s beloved therapy dogs, Izzy, comes up to the camera for a sniff.",
-    location: "Ateneo de Manila University Loyola Schools Office of Guidance and Counseling Self-Care Room",
+    location:
+      "Ateneo de Manila University Loyola Schools Office of Guidance and Counseling Self-Care Room",
     medium: "Digital Photography",
     dimension: "2048 x 1365",
     watermark_position: "tr",
@@ -150,7 +151,8 @@ const PhotoData = {
     date: "December 10, 2022",
     img: singYourHeartOut,
     byline: "Miguel Abad",
-    caption: "Members of the Ateneo Musicians’ Pool sing a passionate song for The Fifth Noel concert at Areté.",
+    caption:
+      "Members of the Ateneo Musicians’ Pool sing a passionate song for The Fifth Noel concert at Areté.",
     location: "Ateneo De Manila University Areté Innovation Wing",
     medium: "Digital Photography",
     dimension: "4000 x 6000",
@@ -282,7 +284,8 @@ const PhotoData = {
     byline: "Daryl D. Sy",
     caption:
       "The Ateneo Employees and Workers Union (AEWU) found themselves at heart of controversy for their landmark decision to mobilize a strike against the Loyola Schools administration. As AEWU first began their preparations for the strike, members of the Ateneo community paid a visit to the union office and handed a letter of formal support for the union workers. ",
-    location: "Ateneo de Manila University Ateneo Employees and Workers Union Main Office",
+    location:
+      "Ateneo de Manila University Ateneo Employees and Workers Union Main Office",
     medium: "Digital Photography",
     dimension: "5421 x 3614",
     watermark_position: "tr",
