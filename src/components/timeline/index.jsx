@@ -9,6 +9,7 @@ function Timeline() {
     window.addEventListener("scroll", () => {
       // animation
       // may be slow
+      /*
       let woffx = (window.innerWidth / 5) * 3;
 
       let els = document.querySelectorAll(".anim");
@@ -19,6 +20,7 @@ function Timeline() {
         if (left < 0) el.classList.add("active");
         else el.classList.remove("active");
       });
+      */
     });
   }, []);
 
@@ -26,7 +28,8 @@ function Timeline() {
     <section id="timeline">
       <p className="message">
         For a better viewing experience, please view the gallery on your browser
-        and in full screen.
+        and in full screen. <br /> <br />
+        You may click each photo to view more details.
       </p>
 
       <h1 className="year _2022">2022</h1>
@@ -39,7 +42,7 @@ function Timeline() {
           <Link
             to={`/photo/${slug}`}
             key={slug}
-            className={`anim ${slug} photo`}
+            className={`anim active ${slug} photo`}
             data-title={PhotosData[slug].title}
             style={{ aspectRatio: dimension[0] / dimension[2] }}
           >

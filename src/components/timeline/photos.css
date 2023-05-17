@@ -15,6 +15,7 @@
   position: absolute;
   inset: 50% auto auto 50%;
   transform: translate(-50%, -50%);
+  width: 85%;
 
   opacity: 0;
   transition: opacity 0.3s;

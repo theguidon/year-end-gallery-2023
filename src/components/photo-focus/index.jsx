@@ -119,7 +119,7 @@ function PhotoFocus() {
         </p>
 
         <p className="meta timeloc">
-          Taken {PhotoData[params.slug].date} at{" "}
+          Taken {PhotoData[params.slug].date} at the{" "}
           {PhotoData[params.slug].location}
         </p>
 

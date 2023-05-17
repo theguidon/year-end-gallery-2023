@@ -65,7 +65,7 @@ const PhotoData = {
     title: "Protesting in Silence",
     date: "September 1, 2022",
     img: protestingInSilence,
-    byline: "Jhanine Caoile",
+    byline: "Daryl D. Sy",
     caption:
       "The 50th anniversary of the Martial Law declaration marked an important milestone of the era-defining moment in Philippine history. In an effort to keep the sacrifices of Martial Law alive today, the Atenean community donned black clothing as a form of silent protest against the atrocities committed during the 14-year period of suppression.",
     location: "Ateneo de Manila University Red Brick Road",
