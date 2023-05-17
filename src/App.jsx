@@ -25,7 +25,7 @@ function App() {
 
       // background color changing
       let perc = val / (main.scrollWidth - window.innerWidth);
-      console.log(perc);
+      // console.log(perc);
 
       if (perc < 0.04) {
         setBgColor(main, "bg-dark");
