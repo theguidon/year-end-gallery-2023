@@ -14,7 +14,7 @@ function Ending() {
         Designed by <strong>Emman Evangelista</strong> and{" "}
         <strong>Josh de Vera</strong>
         <br />
-        Developed by <strong>Waleed D. Lugod</strong> and{" "}
+        Developed by <strong>Waleed Lugod</strong> and{" "}
         <strong>Emman Evangelista</strong>
       </p>
     </section>
