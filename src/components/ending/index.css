@@ -13,7 +13,7 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: flex-end;
-  row-gap: 100px;
+  row-gap: 64px;
 }
 
 #ending .logo {
@@ -29,4 +29,5 @@
   text-transform: uppercase;
   text-align: right;
   line-height: 1.5;
+  max-width: 500px;
 }

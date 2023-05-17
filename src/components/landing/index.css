@@ -12,7 +12,7 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  row-gap: 100px;
+  row-gap: 64px;
 }
 
 #landing .logo {
@@ -29,4 +29,5 @@
   text-align: center;
   color: white;
   line-height: 1.5;
+  max-width: 500px;
 }
