@@ -141,9 +141,6 @@
   transition-delay: 0.1s;
 }
 
-@media screen and (max-aspect-ratio: 1 / 1) {
-}
-
 @media screen and (max-width: 992px) {
   #photo-focus .return {
     left: 64px;
