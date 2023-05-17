@@ -11,8 +11,12 @@
   width: 100%;
 }
 
-#timeline img {
-  position: absolute;
+#timeline ._2022 {
+  left: 4%;
+}
+
+#timeline ._2023 {
+  left: 57.3%;
 }
 
 #timeline .message {
@@ -35,5 +39,4 @@
   font-weight: lighter;
 
   position: absolute;
-  left: 4%;
 }

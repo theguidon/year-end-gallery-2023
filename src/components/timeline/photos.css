@@ -1,0 +1,130 @@
+#timeline img {
+  position: absolute;
+  left: -100%; /* remove */
+}
+
+/* In order of appearance */
+#timeline .anim-jeneven {
+  width: 2%;
+  inset: 5% auto auto 7.5%;
+}
+
+#timeline .anim-liwanag-sa-dilim {
+  width: 2%;
+  inset: 55% auto auto 8.9%;
+}
+
+#timeline .anim-kick-like-a-girl {
+  width: 1.9%;
+  inset: 8% auto auto 12%;
+}
+
+#timeline .anim-protesting-in-silence {
+  width: 2.3%;
+  inset: 13% auto auto 14.8%;
+}
+
+#timeline .anim-laban-ko-laban-nating-lahat {
+  width: 1.5%;
+  inset: 20% auto auto 18%;
+}
+
+#timeline .anim-rainbows-late-into-the-night {
+  width: 3%;
+  inset: 10% auto auto 20.3%;
+}
+
+#timeline .anim-boop {
+  width: 2.5%;
+  inset: 45% auto auto 24%;
+}
+
+#timeline .anim-admu-as-the-philippines-1 {
+  height: 100%;
+  inset: 0% auto auto 27.5%;
+}
+
+#timeline .anim-sing-your-heart-out {
+  width: 1.5%;
+  inset: 5% auto auto 33.6%;
+}
+
+#timeline .anim-all-the-worlds-a-stage {
+  width: 1.2%;
+  inset: 40% auto auto 35.5%;
+}
+
+#timeline .anim-the-fast-ateneo-swimming-team {
+  width: 2%;
+  inset: 55% auto auto 37.5%;
+}
+
+#timeline .anim-end-of-the-match {
+  width: 2%;
+  inset: 5% auto auto 39%;
+}
+
+#timeline .anim-redemption {
+  width: 3%;
+  inset: 25% auto auto 41.8%;
+}
+
+#timeline .anim-reclaim-the-crown {
+  height: 100%;
+  inset: 0% auto auto 46%;
+}
+
+#timeline .anim-blue-eagles-band-of-brothers {
+  height: 48%;
+  inset: 40% auto auto 51.5%;
+}
+
+#timeline .anim-celebrating-champions {
+  height: 100%;
+  inset: 0% auto auto 61%;
+}
+
+#timeline .anim-the-crown-is-back-in-loyola-heights {
+  height: 55%;
+  inset: 38% auto auto 67%;
+}
+
+#timeline .anim-locked-eyes {
+  height: 55%;
+  inset: 5% auto auto 70.5%;
+}
+
+#timeline .anim-sa-harap-ng-midya-at-masa {
+  height: 40%;
+  inset: 55% auto auto 74%;
+}
+
+#timeline .anim-commuter-rush {
+  height: 40%;
+  inset: 25% auto auto 76.3%;
+}
+
+#timeline .anim-tahanan {
+  height: 40%;
+  inset: 55% auto auto 79%;
+}
+
+#timeline .anim-from-the-community {
+  height: 58%;
+  inset: 5% auto auto 82%;
+}
+
+#timeline .anim-off-the-road {
+  height: 58%;
+  inset: 30% auto auto 86%;
+}
+
+#timeline .anim-brought-home-the-silver {
+  height: 100%;
+  inset: 0% auto auto 90%;
+}
+
+#timeline .anim-eyes-on-the-goal {
+  height: 50%;
+  inset: 40% auto auto 95.5%;
+}
