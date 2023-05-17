@@ -3,6 +3,8 @@
   grid-column: 2 / 3;
 
   position: relative;
+  height: 100%;
+  /* overflow-y: hidden; */
 }
 
 #strokes .stroke {
