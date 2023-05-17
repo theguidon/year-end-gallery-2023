@@ -11,6 +11,7 @@ function PhotoFocus() {
   const wrapper = useRef(null);
   const img = useRef(null);
 
+  const [overrideOverlay, setOverrideOverlay] = useState(true);
   const [overlayVisible, setOverlayVisible] = useState(false);
   const [shouldRedirect, setShouldRedirect] = useState(false);
 
@@ -18,10 +19,17 @@ function PhotoFocus() {
     if (!wrapper.current) return;
 
     // fade in effect
-    wrapper.current.classList.add("active");
+    setTimeout(() => {
+      wrapper.current.classList.add("active");
+    }, 100);
 
     // remove scroll from body
     document.querySelector("body").classList.add("no-scroll");
+
+    // automatically remove overlay after delay
+    setTimeout(() => {
+      setOverrideOverlay(false);
+    }, 3000);
   }, []);
 
   const initiateExit = () => {
@@ -40,23 +48,28 @@ function PhotoFocus() {
 
   const onClick = (event) => {
     setOverlayVisible(!overlayVisible);
+    if (overrideOverlay) setOverrideOverlay(false);
   };
 
   const onMouseMove = (event) => {
-    if (window.innerWidth <= 576) return;
+    if (
+      window.innerWidth <= 576 ||
+      !wrapper.current.classList.contains("active")
+    )
+      return;
 
     let mx = event.clientX;
     let my = event.clientY;
 
-    if (mx < window.innerWidth / 2) {
+    if (mx < window.innerWidth / 3) {
       setOverlayVisible(true);
     } else {
       setOverlayVisible(false);
     }
 
     // moving image
-    let tx = (mx / window.innerWidth - 0.5) * 30;
-    let ty = (my / window.innerHeight - 0.5) * 15;
+    let tx = (mx / window.innerWidth - 0.5) * -30;
+    let ty = (my / window.innerHeight - 0.5) * -15;
 
     img.current.style.transform = `scale(1.15) translate(${tx}px, ${ty}px)`;
   };
@@ -79,16 +92,24 @@ function PhotoFocus() {
         ref={img}
       />
 
-      <div className={`tint ${overlayVisible ? "active" : ""}`} />
+      <div
+        className={`tint ${overrideOverlay || overlayVisible ? "active" : ""}`}
+      />
 
       <p
-        className={`return ${overlayVisible ? "active" : ""}`}
+        className={`return ${
+          overrideOverlay || overlayVisible ? "active" : ""
+        }`}
         onClick={initiateExit}
       >
         Back to Gallery
       </p>
 
-      <div className={`content-wrapper ${overlayVisible ? "active" : ""}`}>
+      <div
+        className={`content-wrapper ${
+          overrideOverlay || overlayVisible ? "active" : ""
+        }`}
+      >
         <h1 className="title">{PhotoData[params.slug].title}</h1>
 
         <p className="caption">{parse(PhotoData[params.slug].caption)}</p>

@@ -31,7 +31,7 @@ const PhotoData = {
     img: jeneven,
     byline: "Vionna Villalon",
     caption:
-      "Flowers, candles, and graffiti commemorating Officer Jeneven Bandiala at the Ateneo Gate 3.5 footbridge, where Officer Bandiala was formerly assigned. Officer Bandiala died in the line of duty during the shooting incident at the Areté on July 24, 2022.",
+      "Flowers, candles, and graffiti commemorate Officer Jeneven Bandiala's life at the Ateneo Gate 3.5 footbridge, the post that he was formerly assigned to. Officer Bandiala died in the line of duty during the shooting incident at the Areté on July 24, 2022.",
     location: "Ateneo de Manila University Gate 3.5 Footbridge",
     medium: "Digital Photography",
     dimension: "2048 x 1365",
@@ -55,7 +55,7 @@ const PhotoData = {
     img: kickLikeAGirl,
     byline: "Jhanine Caoile",
     caption:
-      "Women’s Taekwondo Poomsae Captain Elaine Borres performs a high roundhouse kick. This photo was taken before the UAAP Season 85 games.",
+      "Women's Taekwondo Poomsae Captain Elaine Borres performs a high roundhouse kick. This photo was taken before the UAAP Season 85 games.",
     location: "Ateneo de Manila University",
     medium: "Digital Photography",
     dimension: "1600 x 2400",
@@ -67,7 +67,7 @@ const PhotoData = {
     img: protestingInSilence,
     byline: "Jhanine Caoile",
     caption:
-      "Women’s Taekwondo Poomsae Captain Elaine Borres performs a high roundhouse kick. This photo was taken before the UAAP Season 85 games.",
+      "The 50th anniversary of the Martial Law declaration marked an important milestone of the era-defining moment in Philippine history. In an effort to keep the sacrifices of Martial Law alive today, the Atenean community donned black clothing as a form of silent protest against the atrocities committed during the 14-year period of suppression.",
     location: "Ateneo de Manila University Red Brick Road",
     medium: "Digital Photography",
     dimension: "5048 x 3365",
@@ -103,7 +103,7 @@ const PhotoData = {
     img: boop,
     byline: "Vionna Villalon",
     caption:
-      "One of the Loyola Schools Office of Guidance and Counseling’s beloved therapy dogs, Izzy, comes up to the camera for a sniff.",
+      "One of the Loyola Schools Office of Guidance and Counseling's beloved therapy dogs, Izzy, comes up to the camera for a sniff.",
     location:
       "Ateneo de Manila University Loyola Schools Office of Guidance and Counseling Self-Care Room",
     medium: "Digital Photography",
@@ -116,7 +116,7 @@ const PhotoData = {
     img: admuAsThePhilippines1,
     byline: "Elly Kim",
     caption:
-      "The Ateneo de Manila University proudly emerged as the top-ranked university in the Philippines in the Times Higher Education’s prestigious World University Rankings. This became a cause for celebration as Ateneans commemorated the university’s commitment to excellence in education.",
+      "The Ateneo de Manila University proudly emerged as the top-ranked university in the Philippines in the Times Higher Education's prestigious World University Rankings. This became a cause for celebration as Ateneans commemorated the university's commitment to excellence in education.",
     location: "Ateneo de Manila University Rizal Library and Gate 3",
     medium: "Digital Photography",
     dimension: "1440 x 864",
@@ -128,7 +128,7 @@ const PhotoData = {
     img: theFastAteneoSwimmingTeam,
     byline: "France Vicente",
     caption:
-      "The Ateneo Men’s Swimming Team clinched their seventh consecutive title in the University Athletic Association of the Philippines’ Men’s Swimming Tournament after finishing strong in the championship round.",
+      "The Ateneo Men's Swimming Team clinched their seventh consecutive title in the University Athletic Association of the Philippines' Men’s Swimming Tournament after finishing strong in the championship round.",
     location: "Rizal Memorial Sports Complex",
     medium: "Digital Photography",
     dimension: "2400 x 1600",
@@ -152,7 +152,7 @@ const PhotoData = {
     img: singYourHeartOut,
     byline: "Miguel Abad",
     caption:
-      "Members of the Ateneo Musicians’ Pool sing a passionate song for The Fifth Noel concert at Areté.",
+      "Members of the Ateneo Musicians' Pool sing a passionate song for The Fifth Noel concert at Areté.",
     location: "Ateneo De Manila University Areté Innovation Wing",
     medium: "Digital Photography",
     dimension: "4000 x 6000",
@@ -176,7 +176,7 @@ const PhotoData = {
     img: redemption,
     byline: "Paulina Singh",
     caption:
-      "Following his team’s successful bid for the University Athletic Association of the Philippines Season 85 championship title, the final game’s Most Valuable Player Ange Kouame of the Ateneo Men’s Basketball Team triumphantly raises his fist after cutting down the net at the Smart Araneta Coliseum.",
+      "Following his team's successful bid for the University Athletic Association of the Philippines Season 85 championship title, the final game's Most Valuable Player Ange Kouame of the Ateneo Men’s Basketball Team triumphantly raises his fist after cutting down the net at the Smart Araneta Coliseum.",
     location: "Smart Araneta Coliseum",
     medium: "Digital Photography",
     dimension: "2400 x 1600",
@@ -188,7 +188,7 @@ const PhotoData = {
     img: reclaimTheCrown,
     byline: "Karl Dimaculangan",
     caption:
-      "The Ateneo Blue Eagles are back in a familiar place as they emerge as the champions of the University Athletic Association of the Philippines Season 85 Men’s Basketball Tournament after defeating the University of the Philippines Fighting Maroons in Game 3, 75-68.",
+      "The Ateneo Blue Eagles are back in a familiar place as they emerge as the champions of the University Athletic Association of the Philippines Season 85 Men's Basketball Tournament after defeating the University of the Philippines Fighting Maroons in Game 3, 75-68.",
     location: "Smart Araneta Coliseum",
     medium: "Digital Photography",
     dimension: "6000 x 4000",
@@ -224,7 +224,7 @@ const PhotoData = {
     img: theCrownIsBackInLoyolaHeights,
     byline: "Stella Arenas",
     caption:
-      "The Ateneo Men’s Basketball Team celebrates the success of their University Athletic Association of the Philippines Season 85 campaign during the Blue Eagle Bonfire.",
+      "The Ateneo Men's Basketball Team celebrates the success of their University Athletic Association of the Philippines Season 85 campaign during the Blue Eagle Bonfire.",
     location: "Ateneo Grade School Parking Lot",
     medium: "Digital Photography",
     dimension: "2400 x 1600",
@@ -271,7 +271,7 @@ const PhotoData = {
     img: tahanan,
     byline: "Patrick Reyes-Santos",
     caption:
-      'Local indie folk-pop band Munimuni spends the afternoon at the Ateneo for a performance and talk on meaningful social transformation through music and the arts. Their talk, titled "Tahanan: Bagong Araw ay Paparating," was one of many conversations in the Ateneo’s Talakayang Alay sa Bayan event this year. Munimuni’s lead vocalist and guitarist Adj Jiao (left) and flutist John Owen Castro (right) share a laugh with the audience during the talk’s question and answer portion.',
+      'Local indie folk-pop band Munimuni spends the afternoon at the Ateneo for a performance and talk on meaningful social transformation through music and the arts. Their talk, titled "<i>Tahanan: Bagong Araw ay Paparating</i>," was one of many conversations in the Ateneo’s <i>Talakayang Alay sa Bayan</i> event this year. Munimuni’s lead vocalist and guitarist Adj Jiao (left) and flutist John Owen Castro (right) share a laugh with the audience during the talk’s question and answer portion.',
     location: "Ateneo de Manila University Gonzaga Exhibit Hall",
     medium: "Digital Photography",
     dimension: "3800 x 2533",
@@ -320,7 +320,7 @@ const PhotoData = {
     img: eyesOnTheGoal,
     byline: "Stella Arenas",
     caption:
-      "Enzo Lucindo of the Ateneo Men’s Football Team gets the ball from their opponent, the De La Salle University Green Booters, during the semifinal match of the University Athletic Association of the Philippines Season 85 Football Tournament.",
+      "Enzo Lucindo of the Ateneo Men's Football Team gets the ball from their opponent, the De La Salle University Green Booters, during the semifinal match of the University Athletic Association of the Philippines Season 85 Football Tournament.",
     location: "University of the Philippines Diliman Football Field",
     medium: "Digital Photography",
     dimension: "2400 x 1600",

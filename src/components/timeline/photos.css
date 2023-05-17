@@ -1,11 +1,3 @@
-@font-face {
-  font-family: "TRY Vesterbro";
-  src: url("./../../fonts/TRY-Vesterbro/TRYVesterbro-Bold.otf"),
-    url("./../../fonts/TRY-Vesterbro/TRYVesterbro-Light.otf"),
-    url("./../../fonts/TRY-Vesterbro/TRYVesterbro-Medium.otf"),
-    url("./../../fonts/TRY-Vesterbro/TRYVesterbro-Regular.otf");
-}
-
 #timeline .photo,
 #timeline .photo .overlay,
 #timeline .photo img {
@@ -16,8 +8,9 @@
   content: attr(data-title);
   color: white;
   font-family: "TRY Vesterbro";
+  font-weight: bold;
   text-align: center;
-  font-size: 2rem;
+  font-size: 48px;
 
   position: absolute;
   inset: 50% auto auto 50%;
