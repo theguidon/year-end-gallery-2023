@@ -1,18 +1,31 @@
 #watermark {
   position: fixed;
+  z-index: 11;
+
+  transition: 0.5s transform;
+}
+
+#watermark.active {
+  transform: translate(0, 0) !important;
 }
 
 #watermark.tr {
   top: 40px;
   right: 24px;
+
+  transform: translate(calc(24px + 100%), 0);
 }
 
 #watermark.br {
   bottom: 40px;
   right: 24px;
+
+  transform: translate(calc(24px + 100%), 0);
 }
 
 #watermark.bl {
   bottom: 40px;
   left: 24px;
+
+  transform: translate(calc(-24px - 100%), 0);
 }
