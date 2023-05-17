@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "TRY Vesterbro";
+  src: url("./../../fonts/TRY-Vesterbro/TRYVesterbro-Bold.otf"),
+    url("./../../fonts/TRY-Vesterbro/TRYVesterbro-Light.otf"),
+    url("./../../fonts/TRY-Vesterbro/TRYVesterbro-Medium.otf"),
+    url("./../../fonts/TRY-Vesterbro/TRYVesterbro-Regular.otf");
+}
+
+#timeline .photo,
+#timeline .photo .overlay,
+#timeline .photo img {
+  position: absolute;
+}
+
+#timeline .photo::after {
+  content: attr(data-title);
+  color: white;
+  font-family: "TRY Vesterbro";
+  text-align: center;
+  font-size: 2rem;
+
+  position: absolute;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%);
+
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+#timeline .photo:hover::after {
+  opacity: 1;
+}
+
+/* looks better tbh */
+#timeline .admu-as-the-philippines-1::after {
+  inset: 50% auto auto 60%;
+}
+
+#timeline .photo img {
+  transition: filter 0.3s;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#timeline .photo:hover img {
+  filter: brightness(0.3);
+}
+
+/* In order of appearance */
+#timeline .jeneven {
+  /* width: 2%; */
+  height: 40%;
+  inset: 5% auto auto 7.5%;
+}
+
+#timeline .liwanag-sa-dilim {
+  /* width: 2%; */
+  height: 40%;
+  inset: 55% auto auto 8.9%;
+}
+
+#timeline .kick-like-a-girl {
+  /* width: 1.9%; */
+  height: 100%;
+  inset: 0 auto 0 12%;
+}
+
+#timeline .protesting-in-silence {
+  /* width: 2.3%; */
+  height: 50%;
+  inset: 13% auto auto 14.8%;
+}
+
+#timeline .laban-ko-laban-nating-lahat {
+  /* width: 1.5%; */
+  height: 65%;
+  inset: 20% auto auto 18%;
+}
+
+#timeline .rainbows-late-into-the-night {
+  /* width: 3%; */
+  height: 60%;
+  inset: 10% auto auto 20.3%;
+}
+
+#timeline .boop {
+  /* width: 2.5%; */
+  height: 50%;
+  inset: 45% auto auto 24%;
+}
+
+#timeline .admu-as-the-philippines-1 {
+  height: 100%;
+  inset: 0% auto auto 27.5%;
+}
+
+#timeline .sing-your-heart-out {
+  /* width: 1.5%; */
+  height: 65%;
+  inset: 5% auto auto 33.6%;
+}
+
+#timeline .all-the-worlds-a-stage {
+  /* width: 1.2%; */
+  height: 55%;
+  inset: 40% auto auto 35.5%;
+}
+
+#timeline .the-fast-ateneo-swimming-team {
+  /* width: 2%; */
+  height: 40%;
+  inset: 55% auto auto 37.5%;
+}
+
+#timeline .end-of-the-match {
+  /* width: 2%; */
+  height: 40%;
+  inset: 5% auto auto 39%;
+}
+
+#timeline .redemption {
+  /* width: 3%; */
+  height: 65%;
+  inset: 25% auto auto 41.8%;
+}
+
+#timeline .reclaim-the-crown {
+  height: 100%;
+  inset: 0% auto auto 46%;
+}
+
+#timeline .blue-eagles-band-of-brothers {
+  height: 48%;
+  inset: 40% auto auto 51.5%;
+}
+
+#timeline .celebrating-champions {
+  height: 100%;
+  inset: 0% auto auto 61%;
+}
+
+#timeline .the-crown-is-back-in-loyola-heights {
+  height: 55%;
+  inset: 38% auto auto 67%;
+}
+
+#timeline .locked-eyes {
+  height: 55%;
+  inset: 5% auto auto 70.5%;
+}
+
+#timeline .sa-harap-ng-midya-at-masa {
+  height: 40%;
+  inset: 55% auto auto 74%;
+}
+
+#timeline .commuter-rush {
+  height: 40%;
+  inset: 25% auto auto 76.3%;
+}
+
+#timeline .tahanan {
+  height: 40%;
+  inset: 55% auto auto 79%;
+}
+
+#timeline .from-the-community {
+  height: 58%;
+  inset: 5% auto auto 82%;
+}
+
+#timeline .off-the-road {
+  height: 58%;
+  inset: 25% auto auto 86%;
+}
+
+#timeline .brought-home-the-silver {
+  height: 100%;
+  inset: 0% auto auto 90%;
+}
+
+#timeline .eyes-on-the-goal {
+  height: 50%;
+  inset: 40% auto auto 95.5%;
+}
