@@ -25,7 +25,8 @@ function Timeline() {
   return (
     <section id="timeline">
       <p className="message">
-        For a better viewing experience, please view the gallery in full screen.
+        For a better viewing experience, please view the gallery on your browser
+        and in full screen.
       </p>
 
       <h1 className="year _2022">2022</h1>

@@ -6,6 +6,7 @@
 
 :root {
   --linen: #faf0e6;
+  --dark: #0c0c0c;
 }
 
 body {
@@ -28,6 +29,8 @@ main {
   grid-template-columns: 100% auto auto;
   grid-template-rows: 1fr;
 
+  transition: 0.5s background-color;
+
   overflow: hidden;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -35,4 +38,16 @@ main {
 
 main::-webkit-scrollbar {
   display: none;
+}
+
+main.bg-black {
+  background-color: black;
+}
+
+main.bg-dark {
+  background-color: var(--dark);
+}
+
+main.bg-linen {
+  background-color: var(--linen);
 }

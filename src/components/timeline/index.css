@@ -16,7 +16,7 @@
 }
 
 #timeline ._2023 {
-  left: 58.7%;
+  left: 57.4%;
 }
 
 #timeline .message {
@@ -25,10 +25,12 @@
   text-align: center;
   color: black;
 
-  max-width: 470px;
+  max-width: min(470px, 90vw);
 
   position: absolute;
   left: 0.2%;
+
+  transition: 0.5s color;
 }
 
 #timeline .year {
@@ -39,4 +41,14 @@
   font-weight: lighter;
 
   position: absolute;
+
+  transition: 0.5s color;
+}
+
+main.bg-black #timeline .message,
+main.bg-dark #timeline .message,
+main.bg-black #timeline .year,
+main.bg-dark #timeline .year {
+  /* color: var(--linen); */
+  color: white;
 }

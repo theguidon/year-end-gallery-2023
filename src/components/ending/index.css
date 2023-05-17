@@ -6,7 +6,7 @@
   height: 100vh;
   padding: 80px 100px 80px 200px;
 
-  background-color: #0c0c0c;
+  /* background-color: #0c0c0c; */
   color: var(--linen);
 
   display: flex;
