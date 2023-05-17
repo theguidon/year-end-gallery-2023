@@ -12,7 +12,17 @@ function Timeline() {
       <h1 className="year _2023">2023</h1>
 
       {Object.keys(PhotosData).map((slug) => {
-        return <img className={`anim-${slug}`} key={slug} src={PhotosData[slug].img} alt="" />;
+        const dimension = PhotosData[slug].dimension.split(" ");
+        return (
+          <div
+            key={slug}
+            className={`anim-${slug} photo`}
+            data-title={PhotosData[slug].title}
+            style={{ aspectRatio: dimension[0] / dimension[2] }}
+          >
+            <img src={PhotosData[slug].img} alt={PhotosData[slug].caption} />
+          </div>
+        );
       })}
     </section>
   );

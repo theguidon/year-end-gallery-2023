@@ -34,7 +34,7 @@ const PhotoData = {
       "Flowers, candles, and graffiti commemorating Officer Jeneven Bandiala at the Ateneo Gate 3.5 footbridge, where Officer Bandiala was formerly assigned. Officer Bandiala died in the line of duty during the shooting incident at the Areté on July 24, 2022.",
     location: "Ateneo de Manila University Gate 3.5 Footbridge",
     medium: "Digital Photography",
-    dimension: "2,048 x 1,365",
+    dimension: "2048 x 1365",
     watermark_position: "tr",
   },
   "liwanag-sa-dilim": {
@@ -46,7 +46,7 @@ const PhotoData = {
       "A student waves a pink handkerchief while former Vice President Leni Robredo addresses the Ateneo de Manila University Class of 2022 during their graduation rites.",
     location: "Ateneo de Manila High School Covered Courts",
     medium: "Digital Photography",
-    dimension: "2,048 x 1,365",
+    dimension: "2048 x 1365",
     watermark_position: "tr",
   },
   "kick-like-a-girl": {
@@ -106,7 +106,7 @@ const PhotoData = {
       "One of the Loyola Schools Office of Guidance and Counseling’s beloved therapy dogs, Izzy, comes up to the camera for a sniff.",
     location: "Ateneo de Manila University Loyola Schools Office of Guidance and Counseling Self-Care Room",
     medium: "Digital Photography",
-    dimension: "2,048 x 1,365",
+    dimension: "2048 x 1365",
     watermark_position: "tr",
   },
   "admu-as-the-philippines-1": {
@@ -130,7 +130,7 @@ const PhotoData = {
       "The Ateneo Men’s Swimming Team clinched their seventh consecutive title in the University Athletic Association of the Philippines’ Men’s Swimming Tournament after finishing strong in the championship round.",
     location: "Rizal Memorial Sports Complex",
     medium: "Digital Photography",
-    dimension: "2,400 x 1,600",
+    dimension: "2400 x 1600",
     watermark_position: "tr",
   },
   "all-the-worlds-a-stage": {
@@ -153,7 +153,7 @@ const PhotoData = {
     caption: "Members of the Ateneo Musicians’ Pool sing a passionate song for The Fifth Noel concert at Areté.",
     location: "Ateneo De Manila University Areté Innovation Wing",
     medium: "Digital Photography",
-    dimension: "4000x6000",
+    dimension: "4000 x 6000",
     watermark_position: "tr",
   },
   "end-of-the-match": {
@@ -201,7 +201,7 @@ const PhotoData = {
       "The Ateneo Men’s Basketball Team celebrates their championship victory through a Thanksgiving Mass at the Church of the Gesù.",
     location: "The Church of the Gesù",
     medium: "Digital Photography",
-    dimension: "3,456 x 2,304",
+    dimension: "3456 x 2304",
     watermark_position: "tr",
   },
   "celebrating-champions": {
@@ -249,7 +249,7 @@ const PhotoData = {
       "Advocates of public transportation issues are closely watched by mass media outlets and the public eye at large.",
     location: "Katipunan Jeepney Terminal",
     medium: "Digital Photography",
-    dimension: "1950x1310",
+    dimension: "1950 x 1310",
     watermark_position: "tr",
   },
   "commuter-rush": {
@@ -260,7 +260,7 @@ const PhotoData = {
     caption: "Take a glimpse into the daily commute experience of Filipinos.",
     location: "Marikina LRT-2 Station",
     medium: "Digital Photography",
-    dimension: "3,049 x 2,033",
+    dimension: "3049 x 2033",
     watermark_position: "tr",
   },
   tahanan: {
