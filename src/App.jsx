@@ -9,9 +9,9 @@ import { useEffect } from "react";
 function App() {
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      /*
       let main = document.getElementById("main");
 
+      /*
       // automatic horizontal scrolling
       let bodyBCR = document.body.getBoundingClientRect();
       let mainBCR = main.getBoundingClientRect();
@@ -23,27 +23,26 @@ function App() {
         bodyBCR.top;
 
       main.scrollLeft = val;
+      */
 
       // background color changing
-      let perc = val / (main.scrollWidth - window.innerWidth);
-      // console.log(perc);
+      let perc = window.scrollX / (main.clientWidth - window.innerWidth);
 
       if (perc < 0.04) {
         setBgColor(main, "bg-dark");
-      } else if (perc < 0.12) {
+      } else if (perc < 0.13) {
         setBgColor(main, "bg-linen");
-      } else if (perc < 0.245) {
+      } else if (perc < 0.235) {
         setBgColor(main, "bg-black");
-      } else if (perc < 0.565) {
+      } else if (perc < 0.53) {
         setBgColor(main, "bg-linen");
-      } else if (perc < 0.69) {
+      } else if (perc < 0.675) {
         setBgColor(main, "bg-dark");
-      } else if (perc < 0.913) {
+      } else if (perc < 0.875) {
         setBgColor(main, "bg-linen");
       } else {
         setBgColor(main, "bg-dark");
       }
-      */
     });
   }, []);
 
