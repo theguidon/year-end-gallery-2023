@@ -36,6 +36,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "2048 x 1365",
     watermark_position: "tr",
+    position: "35% 0%",
   },
   "liwanag-sa-dilim": {
     title: "Liwanag sa Dilim",
@@ -48,6 +49,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "2048 x 1365",
     watermark_position: "tr",
+    position: "75% 70%",
   },
   "kick-like-a-girl": {
     title: "Kick Like a Girl",
@@ -60,6 +62,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "1600 x 2400",
     watermark_position: "tr",
+    position: "50% 55%",
   },
   "protesting-in-silence": {
     title: "Protesting in Silence",
@@ -72,6 +75,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "5048 x 3365",
     watermark_position: "tr",
+    position: "50% 35%",
   },
   "laban-ko-laban-nating-lahat": {
     title: "Laban Ko, Laban Nating Lahat",
@@ -84,6 +88,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "1600 x 2400",
     watermark_position: "tr",
+    position: "50% 50%",
   },
   "rainbows-late-into-the-night": {
     title: "Rainbows Late into the Night",
@@ -96,6 +101,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "3800 x 2533",
     watermark_position: "tr",
+    position: "50% 30%",
   },
   boop: {
     title: "Boop!",
@@ -109,6 +115,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "2048 x 1365",
     watermark_position: "tr",
+    position: "50% 50%",
   },
   "admu-as-the-philippines-1": {
     title: "The Ateneo as the #1 ",
@@ -121,6 +128,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "1440 x 864",
     watermark_position: "tr",
+    position: "60% 25%",
   },
   "the-fast-ateneo-swimming-team": {
     title: "The FAST Ateneo Swimming Team ",
@@ -133,6 +141,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "2400 x 1600",
     watermark_position: "tr",
+    position: "75% 50%",
   },
   "all-the-worlds-a-stage": {
     title: "All the World’s a Stage",
@@ -145,6 +154,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "2925 x 4387",
     watermark_position: "tr",
+    position: "65% 40%",
   },
   "sing-your-heart-out": {
     title: "Sing Your Heart out!",
@@ -157,6 +167,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "4000 x 6000",
     watermark_position: "tr",
+    position: "50% 45%",
   },
   "end-of-the-match": {
     title: "End of the Match",
@@ -169,6 +180,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "6000 x 4000",
     watermark_position: "tr",
+    position: "35% 20%",
   },
   redemption: {
     title: "Redemption",
@@ -181,6 +193,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "2400 x 1600",
     watermark_position: "tr",
+    position: "50% 100%",
   },
   "reclaim-the-crown": {
     title: "Reclaim the Crown",
@@ -193,6 +206,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "6000 x 4000",
     watermark_position: "tr",
+    position: "50% 50%",
   },
   "blue-eagles-band-of-brothers": {
     title: "Blue Eagles Band of Brothers",
@@ -205,6 +219,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "3456 x 2304",
     watermark_position: "tr",
+    position: "50% 0%",
   },
   "celebrating-champions": {
     title: "Celebrating Champions",
@@ -217,6 +232,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "6000 x 4000",
     watermark_position: "tr",
+    position: "52.5% 100%",
   },
   "the-crown-is-back-in-loyola-heights": {
     title: "The Crown is Back in Loyola Heights",
@@ -229,6 +245,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "2400 x 1600",
     watermark_position: "tr",
+    position: "50% 25%",
   },
   "locked-eyes": {
     title: "Locked Eyes",
@@ -241,6 +258,7 @@ const PhotoData = {
     medium: "University of Santo Tomas Quadricentennial Pavillion",
     dimension: "2400 x 1600",
     watermark_position: "tr",
+    position: "30% 50%",
   },
   "sa-harap-ng-midya-at-masa": {
     title: "Sa Harap ng Midya at Masa",
@@ -253,6 +271,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "1950 x 1310",
     watermark_position: "tr",
+    position: "50% 0%",
   },
   "commuter-rush": {
     title: "Commuter Rush",
@@ -264,6 +283,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "3049 x 2033",
     watermark_position: "tr",
+    position: "75% 100%",
   },
   tahanan: {
     title: "Tahanan",
@@ -276,6 +296,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "3800 x 2533",
     watermark_position: "tr",
+    position: "40% 15%",
   },
   "from-the-community": {
     title: "From the Community",
@@ -289,6 +310,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "5421 x 3614",
     watermark_position: "tr",
+    position: "60% 50%",
   },
   "off-the-road": {
     title: "Off the Road",
@@ -301,6 +323,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "6000 x 4000",
     watermark_position: "tr",
+    position: "50% 50%",
   },
   "brought-home-the-silver": {
     title: "Brought Home the Silver",
@@ -313,6 +336,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "6000 x 4000",
     watermark_position: "tr",
+    position: "41.5% 50%",
   },
   "eyes-on-the-goal": {
     title: "Eyes on the Goal",
@@ -325,6 +349,7 @@ const PhotoData = {
     medium: "Digital Photography",
     dimension: "2400 x 1600",
     watermark_position: "tr",
+    position: "62.5% 90%",
   },
 };
 

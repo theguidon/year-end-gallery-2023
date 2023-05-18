@@ -179,3 +179,28 @@
   transform: translate(0, 0);
   opacity: 1;
 }
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  #timeline .photo,
+  #timeline .photo .overlay,
+  #timeline .photo img {
+    max-width: 95vw;
+  }
+
+  #timeline .photo img {
+    object-fit: contain;
+  }
+
+  #timeline .photo::after {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}

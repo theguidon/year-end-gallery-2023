@@ -12,6 +12,9 @@
 
   opacity: 0;
   transition: 0.5s opacity;
+
+  background-size: cover;
+  background-position: center;
 }
 
 #photo-focus.active {

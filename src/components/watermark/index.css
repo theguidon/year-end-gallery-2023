@@ -84,4 +84,9 @@
   #watermark .byline {
     font-size: 8px;
   }
+
+  #watermark.tr {
+    top: unset;
+    bottom: 40px;
+  }
 }

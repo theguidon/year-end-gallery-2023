@@ -84,6 +84,13 @@ function PhotoFocus() {
       ref={wrapper}
       onClick={onClick}
       onMouseMove={onMouseMove}
+      style={{
+        backgroundImage:
+          params.slug === "admu-as-the-philippines-1"
+            ? "black"
+            : `url('${PhotoData[params.slug].img}')`,
+        backgroundPosition: PhotoData[params.slug].position,
+      }}
     >
       <img
         className="img"
@@ -92,6 +99,9 @@ function PhotoFocus() {
           PhotoData[params.slug].byline
         }`}
         ref={img}
+        style={{
+          objectPosition: PhotoData[params.slug].position,
+        }}
       />
 
       <div
