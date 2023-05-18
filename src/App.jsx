@@ -9,6 +9,7 @@ import { useEffect } from "react";
 function App() {
   useEffect(() => {
     window.addEventListener("scroll", () => {
+      /*
       let main = document.getElementById("main");
 
       // automatic horizontal scrolling
@@ -42,6 +43,7 @@ function App() {
       } else {
         setBgColor(main, "bg-dark");
       }
+      */
     });
   }, []);
 
@@ -68,8 +70,10 @@ function Layout() {
     <>
       <main id="main" className="bg-dark">
         <Landing />
-        <Strokes />
-        <Timeline />
+        <div id="timeline-container">
+          <Strokes />
+          <Timeline />
+        </div>
         <Ending />
       </main>
       <Outlet />

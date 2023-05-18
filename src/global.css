@@ -9,8 +9,12 @@
   --dark: #0c0c0c;
 }
 
+html {
+  height: 100%;
+}
+
 body {
-  height: 1500vh;
+  height: 100%;
   background-color: var(--linen);
 }
 
@@ -18,27 +22,22 @@ body.no-scroll {
   overflow: hidden;
 }
 
-main {
-  width: 100%;
+#root {
   height: 100%;
-
-  position: fixed;
-  top: 0;
-  left: 0;
-
-  display: grid;
-  grid-template-columns: 100% auto auto;
-  grid-template-rows: 1fr;
-
-  transition: 0.5s background-color;
-
-  overflow: hidden;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
 
-main::-webkit-scrollbar {
-  display: none;
+main {
+  width: fit-content;
+  height: 100%;
+
+  display: flex;
+  flex-flow: row nowrap;
+
+  transition: 0.5s background-color;
+}
+
+main > * {
+  flex-shrink: 0;
 }
 
 main.bg-black {
@@ -51,4 +50,9 @@ main.bg-dark {
 
 main.bg-linen {
   background-color: var(--linen);
+}
+
+#timeline-container {
+  width: fit-content;
+  position: relative;
 }

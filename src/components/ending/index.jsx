@@ -8,7 +8,12 @@ function Ending() {
     <section id="ending">
       <img className="logo" src={logo} alt="" />
 
-      <img className="title" src={title} alt="Year-End Gallery" />
+      <div
+        className="title"
+        style={{
+          backgroundImage: `url(${title})`,
+        }}
+      />
 
       <p className="credits">
         Photos by <strong>Miguel Abad</strong>, <strong>Stella Arenas</strong>,{" "}

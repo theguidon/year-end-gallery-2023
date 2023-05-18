@@ -21,10 +21,12 @@ function PhotoFocus() {
     // fade in effect
     setTimeout(() => {
       wrapper.current.classList.add("active");
-    }, 100);
 
-    // remove scroll from body
-    document.querySelector("body").classList.add("no-scroll");
+      // remove scroll from body
+      setTimeout(() => {
+        document.querySelector("body").classList.add("no-scroll");
+      }, 500);
+    }, 100);
 
     // automatically remove overlay after delay
     setTimeout(() => {
@@ -131,7 +133,7 @@ function PhotoFocus() {
       <Watermark
         byline={PhotoData[params.slug].byline}
         position={PhotoData[params.slug].watermark_position}
-        active={!overlayVisible}
+        active={!overrideOverlay && !overlayVisible}
       />
     </div>
   );

@@ -6,7 +6,8 @@ import title from "./../../images/yeg-center.svg";
 function Landing() {
   return (
     <section id="landing">
-      <img className="logo" src={logo} alt="" />
+      landing
+      {/* <img className="logo" src={logo} alt="" />
 
       <img className="title" src={title} alt="Year-End Gallery" />
 
@@ -25,7 +26,7 @@ function Landing() {
         <br />
         Developed by <strong>Waleed Lugod</strong> and{" "}
         <strong>Emman Evangelista</strong>
-      </p>
+      </p> */}
     </section>
   );
 }
