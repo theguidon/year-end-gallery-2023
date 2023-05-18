@@ -25,21 +25,45 @@ function App() {
       main.scrollLeft = val;
       */
 
-      // background color changing
-      let perc = window.scrollX / (main.clientWidth - window.innerWidth);
+      // // background color changing
+      // let perc = window.scrollX / (main.clientWidth - window.innerWidth);
 
-      if (perc < 0.04) {
+      // if (perc < 0.04) {
+      //   setBgColor(main, "bg-dark");
+      // } else if (perc < 0.13) {
+      //   setBgColor(main, "bg-linen");
+      // } else if (perc < 0.235) {
+      //   setBgColor(main, "bg-black");
+      // } else if (perc < 0.53) {
+      //   setBgColor(main, "bg-linen");
+      // } else if (perc < 0.675) {
+      //   setBgColor(main, "bg-dark");
+      // } else if (perc < 0.875) {
+      //   setBgColor(main, "bg-linen");
+      // } else {
+      //   setBgColor(main, "bg-dark");
+      // }
+
+      // background color changing
+      let tl = document.getElementById("timeline");
+      let tlBCR = tl.getBoundingClientRect();
+      let woffx = window.innerWidth / 2;
+      let tlL = tlBCR.left - woffx;
+      let tlR = tlBCR.right - woffx;
+      let tlPerc = tlL / (tlL - tlR);
+
+      if (tlPerc < 0) {
         setBgColor(main, "bg-dark");
-      } else if (perc < 0.13) {
-        setBgColor(main, "bg-linen");
-      } else if (perc < 0.235) {
+      } else if (tlPerc < 0.106) {
+        setBgColor(main, "bg-light");
+      } else if (tlPerc < 0.215) {
         setBgColor(main, "bg-black");
-      } else if (perc < 0.53) {
-        setBgColor(main, "bg-linen");
-      } else if (perc < 0.675) {
+      } else if (tlPerc < 0.521) {
+        setBgColor(main, "bg-light");
+      } else if (tlPerc < 0.68) {
         setBgColor(main, "bg-dark");
-      } else if (perc < 0.875) {
-        setBgColor(main, "bg-linen");
+      } else if (tlPerc < 0.86) {
+        setBgColor(main, "bg-light");
       } else {
         setBgColor(main, "bg-dark");
       }
@@ -48,7 +72,7 @@ function App() {
 
   const setBgColor = (el, color) => {
     if (el.classList.contains(color)) return;
-    el.classList.remove("bg-dark", "bg-black", "bg-linen");
+    el.classList.remove("bg-dark", "bg-black", "bg-light");
     el.classList.add(color);
   };
 

@@ -5,7 +5,8 @@
 }
 
 :root {
-  --linen: #faf0e6;
+  --linen: #fff8e7;
+  /* --linen: #faf0e6; */
   --dark: #0c0c0c;
 }
 
@@ -41,14 +42,16 @@ main > * {
 }
 
 main.bg-black {
-  background-color: black;
+  background-color: #040303;
+  /* background-color: black; */
 }
 
 main.bg-dark {
   background-color: var(--dark);
 }
 
-main.bg-linen {
+main.bg-light {
+  /* background-color: #fff8e7; */
   background-color: var(--linen);
 }
 

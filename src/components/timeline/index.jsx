@@ -5,24 +5,24 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
 function Timeline() {
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      // animation
-      // may be slow
-      /*
-      let woffx = (window.innerWidth / 5) * 3;
+  // useEffect(() => {
+  //   window.addEventListener("scroll", () => {
+  //     // animation
+  //     // may be slow
+  //     /*
+  //     let woffx = (window.innerWidth / 5) * 3;
 
-      let els = document.querySelectorAll(".anim");
-      els.forEach((el, i) => {
-        let BCR = el.getBoundingClientRect();
-        let left = BCR.left - woffx;
+  //     let els = document.querySelectorAll(".anim");
+  //     els.forEach((el, i) => {
+  //       let BCR = el.getBoundingClientRect();
+  //       let left = BCR.left - woffx;
 
-        if (left < 0) el.classList.add("active");
-        else el.classList.remove("active");
-      });
-      */
-    });
-  }, []);
+  //       if (left < 0) el.classList.add("active");
+  //       else el.classList.remove("active");
+  //     });
+  //     */
+  //   });
+  // }, []);
 
   return (
     <section id="timeline">
