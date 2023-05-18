@@ -46,7 +46,13 @@ function Timeline() {
             data-title={PhotosData[slug].title}
             style={{ aspectRatio: dimension[0] / dimension[2] }}
           >
-            <img src={PhotosData[slug].img} alt={PhotosData[slug].caption} />
+            <img
+              src={PhotosData[slug].img}
+              alt={PhotosData[slug].caption}
+              style={{
+                objectPosition: PhotosData[slug].position,
+              }}
+            />
           </Link>
         );
       })}

@@ -190,15 +190,20 @@
   #timeline .photo,
   #timeline .photo .overlay,
   #timeline .photo img {
-    max-width: 95vw;
+    max-width: 115vw;
   }
 
-  #timeline .photo img {
+  /* #timeline .photo img {
     object-fit: contain;
-  }
+  } */
 
   #timeline .photo::after {
     font-size: 32px;
+    max-width: 80vw;
+  }
+
+  #timeline .admu-as-the-philippines-1::after {
+    inset: 50% auto auto 50%;
   }
 }
 

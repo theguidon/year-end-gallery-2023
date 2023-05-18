@@ -85,10 +85,11 @@ function PhotoFocus() {
       onClick={onClick}
       onMouseMove={onMouseMove}
       style={{
-        backgroundImage:
-          params.slug === "admu-as-the-philippines-1"
-            ? "black"
-            : `url('${PhotoData[params.slug].img}')`,
+        backgroundColor: "black",
+        // backgroundImage:
+        //   params.slug === "admu-as-the-philippines-1"
+        //     ? "black"
+        //     : `url('${PhotoData[params.slug].img}')`,
         backgroundPosition: PhotoData[params.slug].position,
       }}
     >

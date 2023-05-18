@@ -16,20 +16,24 @@ function Ending() {
       />
 
       <p className="credits">
-        Photos by <strong>Miguel Abad</strong>, <strong>Stella Arenas</strong>,{" "}
-        <strong>Jhanine Caoile</strong>, <strong>Karl Dimaculangan</strong>,{" "}
-        <strong>Elly Kim</strong>, <strong>Soleil Nicolette</strong>,{" "}
-        <strong>Mikyla Reyes</strong>, <strong>Patrick Reyes-Santos</strong>,{" "}
-        <strong>Jillian C. Santos</strong>, <strong>Paulina Singh</strong>,{" "}
-        <strong>Daryl D. Sy</strong>, <strong>France Vicente</strong>, and{" "}
-        <strong>Vionna Villalon</strong>
+        Photos by <strong className="nowrap">Miguel Abad</strong>,{" "}
+        <strong className="nowrap">Stella Arenas</strong>,{" "}
+        <strong className="nowrap">Jhanine Caoile</strong>,{" "}
+        <strong className="nowrap">Karl Dimaculangan</strong>,{" "}
+        <strong className="nowrap">Elly Kim</strong>,{" "}
+        <strong className="nowrap">Soleil Nicolette</strong>,{" "}
+        <strong className="nowrap">Mikyla Reyes</strong>,{" "}
+        <strong className="nowrap">Patrick Reyes-Santos</strong>,{" "}
+        <strong className="nowrap">Jillian C. Santos</strong>,{" "}
+        <strong className="nowrap">Paulina Singh</strong>,{" "}
+        <strong className="nowrap">Daryl D. Sy</strong>,{" "}
+        <strong className="nowrap">France Vicente</strong>, and{" "}
+        <strong className="nowrap">Vionna Villalon</strong>
         <br />
         <br />
-        Designed by <strong>Emman Evangelista</strong> and{" "}
-        <strong>Josh de Vera</strong>
-        <br />
-        Developed by <strong>Waleed Lugod</strong> and{" "}
-        <strong>Emman Evangelista</strong>
+        Interactive by <strong className="nowrap">
+          Emman Evangelista
+        </strong> and <strong className="nowrap">Waleed Lugod</strong>
       </p>
     </section>
   );

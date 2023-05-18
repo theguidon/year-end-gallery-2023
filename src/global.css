@@ -56,3 +56,7 @@ main.bg-linen {
   width: fit-content;
   position: relative;
 }
+
+.nowrap {
+  white-space: nowrap;
+}
