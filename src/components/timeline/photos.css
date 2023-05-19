@@ -168,7 +168,7 @@
 }
 
 /* anim */
-#timeline .anim {
+/* #timeline .anim {
   transform: translate(0, -64px);
   opacity: 0;
 
@@ -178,7 +178,7 @@
 #timeline .anim.active {
   transform: translate(0, 0);
   opacity: 1;
-}
+} */
 
 @media screen and (max-width: 1200px) {
 }
