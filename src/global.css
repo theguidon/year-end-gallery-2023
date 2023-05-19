@@ -56,7 +56,7 @@ main.bg-light {
 }
 
 #timeline-container {
-  width: fit-content;
+  width: calc(100vh / 700 * 21400);
   position: relative;
 }
 

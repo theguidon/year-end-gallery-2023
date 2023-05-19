@@ -3,7 +3,7 @@
   height: 100%;
 
   position: relative;
-  width: fit-content;
+  /* width: fit-content; */
 
   overflow-y: hidden;
 }
