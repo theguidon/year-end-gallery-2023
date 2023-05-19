@@ -3,13 +3,33 @@
   height: 100%;
   padding: 80px 24px;
 
-  /* background-color: #0c0c0c; */
-
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
+  justify-items: center;
   align-items: center;
-  row-gap: 64px;
+  row-gap: 40px;
+
+  background-position: center;
+  background-size: 120% auto;
+
+  animation: 10s landing-bg ease-in-out alternate infinite;
+}
+
+#landing > * {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+@keyframes landing-bg {
+  to {
+    background-size: 200% auto;
+  }
+}
+
+@keyframes landing-bg-mobile {
+  to {
+    background-size: auto 250%;
+  }
 }
 
 #landing .logo {
@@ -17,30 +37,64 @@
 }
 
 #landing .title {
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-
-#landing .credits {
-  font-family: "Adobe Clean", sans-serif;
-  text-transform: uppercase;
+  max-width: 600px;
+  font-size: 160px;
+  font-family: "Arapey", serif;
+  line-height: 0.75;
+  letter-spacing: -0.03em;
+  font-weight: normal;
   text-align: center;
   color: white;
-  line-height: 1.5;
-  max-width: 500px;
+
+  transition: 0.5s color;
+}
+
+/* main.bg-light #landing .title {
+  color: black;
+} */
+
+#landing .enter {
+  font-size: 16px;
+  font-family: "Adobe Clean", sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: white;
+
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1200px) {
+  #landing {
+    background-size: 150% auto;
+  }
 }
 
 @media screen and (max-width: 992px) {
+  #landing {
+    background-size: 175% auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
   #landing .credits {
     max-width: unset;
   }
+
+  #landing {
+    background-size: auto 175%;
+    animation-name: landing-bg-mobile;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  #landing .logo {
+    width: 250px;
+  }
+
+  #landing .title {
+    font-size: 80px;
+    max-width: 280px;
+  }
 }

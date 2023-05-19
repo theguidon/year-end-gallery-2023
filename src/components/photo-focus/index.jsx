@@ -54,6 +54,7 @@ function PhotoFocus() {
   };
 
   const onMouseMove = (event) => {
+    /*
     if (
       window.innerWidth <= 576 ||
       !wrapper.current.classList.contains("active")
@@ -74,6 +75,7 @@ function PhotoFocus() {
     let ty = (my / window.innerHeight - 0.5) * -15;
 
     img.current.style.transform = `scale(1.15) translate(${tx}px, ${ty}px)`;
+    */
   };
 
   if (!PhotoData[params.slug] || shouldRedirect) return <Navigate to="/" />;
