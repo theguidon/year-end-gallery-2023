@@ -35,6 +35,7 @@ function Timeline() {
     const context = gsap.context(() => {
       photos.forEach((photo) => {
         gsap.from(photo, {
+          ease: "power4.out",
           opacity: 0, // opacity before enters viewport
           x: 64, // transform: translateX(64), position of photo before enters viewport
           duration: 2, // duration of animation
