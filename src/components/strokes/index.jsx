@@ -32,7 +32,7 @@ function Strokes() {
   }, []);
 
   return (
-    <div id="strokes">
+    <div id="strokes" className="noglitch">
       <MajorStroke />
       <MinorStrokeA />
       <MinorStrokeB />

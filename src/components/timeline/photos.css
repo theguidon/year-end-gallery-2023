@@ -202,8 +202,15 @@
     max-width: 80vw;
   }
 
+  #timeline .admu-as-the-philippines-1 img,
+  #timeline .admu-as-the-philippines-1 .overlay {
+    object-fit: contain;
+    translate: 0 -15vh;
+  }
+
   #timeline .admu-as-the-philippines-1::after {
-    inset: 50% auto auto 50%;
+    inset: 50% auto auto 60%;
+    translate: 0 -15vh;
   }
 }
 

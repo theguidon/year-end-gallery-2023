@@ -14,6 +14,7 @@ function Landing() {
   return (
     <section
       id="landing"
+      className="noglitch"
       style={{
         backgroundImage: `url('${bg}')`,
       }}

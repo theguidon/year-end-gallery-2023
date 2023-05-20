@@ -31,7 +31,7 @@ function PhotoFocus() {
     // automatically remove overlay after delay
     setTimeout(() => {
       setOverrideOverlay(false);
-    }, 3000);
+    }, 5000);
   }, []);
 
   const initiateExit = () => {
@@ -84,6 +84,7 @@ function PhotoFocus() {
       ref={wrapper}
       onClick={onClick}
       onMouseMove={onMouseMove}
+      className="noglitch"
       style={{
         backgroundColor: "black",
         // backgroundImage:

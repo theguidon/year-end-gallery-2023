@@ -54,7 +54,8 @@ function Timeline() {
   return (
     <section id="timeline" ref={timeline}>
       <p className="message">
-        For a better viewing experience, please view the gallery on your browser and in full screen. <br /> <br />
+        For a better viewing experience, please view the gallery on your browser
+        and in full screen. <br /> <br />
         You may click each photo to view more details.
       </p>
 
@@ -68,7 +69,7 @@ function Timeline() {
           <Link
             to={`/photo/${slug}`}
             key={slug}
-            className={`anim active ${slug} photo`}
+            className={`anim active ${slug} photo noglitch`}
             data-title={PhotosData[slug].title}
             style={{ aspectRatio: dimension[0] / dimension[2] }}
           >

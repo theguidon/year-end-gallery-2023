@@ -11,39 +11,6 @@ function App() {
     window.addEventListener("scroll", () => {
       let main = document.getElementById("main");
 
-      /*
-      // automatic horizontal scrolling
-      let bodyBCR = document.body.getBoundingClientRect();
-      let mainBCR = main.getBoundingClientRect();
-
-      let val =
-        ((main.scrollWidth - window.innerWidth) /
-          (bodyBCR.height - mainBCR.height)) *
-        -1 *
-        bodyBCR.top;
-
-      main.scrollLeft = val;
-      */
-
-      // // background color changing
-      // let perc = window.scrollX / (main.clientWidth - window.innerWidth);
-
-      // if (perc < 0.04) {
-      //   setBgColor(main, "bg-dark");
-      // } else if (perc < 0.13) {
-      //   setBgColor(main, "bg-linen");
-      // } else if (perc < 0.235) {
-      //   setBgColor(main, "bg-black");
-      // } else if (perc < 0.53) {
-      //   setBgColor(main, "bg-linen");
-      // } else if (perc < 0.675) {
-      //   setBgColor(main, "bg-dark");
-      // } else if (perc < 0.875) {
-      //   setBgColor(main, "bg-linen");
-      // } else {
-      //   setBgColor(main, "bg-dark");
-      // }
-
       // background color changing
       let tl = document.getElementById("timeline");
       let tlBCR = tl.getBoundingClientRect();
