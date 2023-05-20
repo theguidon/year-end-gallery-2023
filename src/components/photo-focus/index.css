@@ -2,6 +2,8 @@
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 50;
 
   width: 100vw;
@@ -15,6 +17,8 @@
 
   background-size: cover;
   background-position: center;
+
+  transform: scale(1.001, 1.001);
 }
 
 #photo-focus.active {

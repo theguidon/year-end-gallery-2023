@@ -49,14 +49,13 @@ function PhotoFocus() {
   };
 
   const onClick = (event) => {
-    setOverlayVisible(!overlayVisible);
     if (overrideOverlay) setOverrideOverlay(false);
+    else setOverlayVisible(!overlayVisible);
   };
 
   const onMouseMove = (event) => {
-    /*
     if (
-      window.innerWidth <= 576 ||
+      window.innerWidth <= 768 ||
       !wrapper.current.classList.contains("active")
     )
       return;
@@ -75,7 +74,6 @@ function PhotoFocus() {
     let ty = (my / window.innerHeight - 0.5) * -15;
 
     img.current.style.transform = `scale(1.15) translate(${tx}px, ${ty}px)`;
-    */
   };
 
   if (!PhotoData[params.slug] || shouldRedirect) return <Navigate to="/" />;

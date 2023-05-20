@@ -5,7 +5,7 @@
   position: relative;
 
   overflow-x: visible;
-  overflow-y: hidden;
+  overflow-y: clip;
 
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -27,7 +27,7 @@
 }
 
 #strokes .stroke {
-  animation: 3s path-idle infinite linear alternate;
+  animation: 3s path-idle infinite ease-in-out alternate;
 }
 
 #strokes .minor.a {
